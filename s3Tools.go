@@ -115,5 +115,5 @@ func GetBucketPolicyStatus(ctx context.Context, client BucketVisibility, bucketN
 	if err != nil {
 		return false
 	}
-	return pol.PolicyStatus.IsPublic
+	return *pol.PolicyStatus.IsPublic
 }
