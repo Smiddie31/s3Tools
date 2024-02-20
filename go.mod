@@ -1,6 +1,6 @@
 module github.com/Smiddie31/s3Tools
 
-go 1.22.0
+go 1.21
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.25.0
